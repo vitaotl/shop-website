@@ -1,16 +1,25 @@
-header {
+.c-header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border: 1px solid;
-  height: 10vh;
-  font-family: Montserrat;
+  height: 10%;
+  width: 95%;
+  /* color:rgb(155, 155, 155); */
+  
 }
 
 span {
-  margin: 0 10px;
-}
-
-span:hover {
   cursor: pointer;
 }
+
+.c-header__links {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 30px;
+}
+
+.c-header__icons {
+  margin: 0 55px;
+}
+

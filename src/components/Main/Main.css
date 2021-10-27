@@ -1,4 +1,5 @@
-body {
-  background-image: url('../../assets/background.jpg');
-  background-position: calc(50%) calc(30%);
+.c-container {
+  display: flex;
+  width: 88%;
+  height: 90%;
 }

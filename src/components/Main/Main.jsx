@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header'
+import SideBar from '../SideBar/SideBar';
+import MainContent from '../MainContent/MainContent';
 
 import './Main.css'
 
@@ -7,9 +9,13 @@ import './Main.css'
 
 function Main() {
   return (
-    <body>
-    <Header />
-    </body>
+    <>
+      <Header />
+      <div className="c-container">
+        <SideBar />
+        <MainContent />
+      </div>
+    </>
   )
 }
 

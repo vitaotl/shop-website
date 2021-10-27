@@ -6,14 +6,16 @@ import { faShoppingBag, faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Header = () => {
   return (
-    <header>
-      <span>My account</span>
-      <span>SEARCH</span>
-      <span>
-        <FontAwesomeIcon size={`${2}}x`} icon={faShoppingBag} />
+    <header className="c-header" >
+      <div className="c-header__links">
+        <span className="">My account</span>
+        <span className="">SEARCH</span>
+      </div>
+      <span className="c-header__icons">
+        <FontAwesomeIcon size={`1x`} icon={faShoppingBag} />
       </span>
-      <span>
-        <FontAwesomeIcon size={`${2}}x`} icon={faBars} />
+      <span className="c-header__icons">
+        <FontAwesomeIcon size={`1x`} icon={faBars} />
       </span>
     </header>
   )
